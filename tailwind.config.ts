@@ -27,6 +27,7 @@ const config = {
     },
     extend: {
       colors: {
+        // Added custom shades for black, white, blue, purple
         black: {
           DEFAULT: "#000",
           100: "#000319",
