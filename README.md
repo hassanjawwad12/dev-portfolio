@@ -2,6 +2,8 @@
 
 A professional developer portfolio built with modern web technologies to showcase your skills and projects with beautiful animations and interactive 3D elements.
 
+<img src="landing.png" />
+
 ## Technologies Used
 
 - **Next.js** - React framework for the user interface
