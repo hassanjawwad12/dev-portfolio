@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <>
       <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-        <div className="w-full flex justify-end right-4">
-          <ModeToggle />
-        </div>
         <div className="max-w-7xl w-full">
+          {/* <div className="fixed top-8 right-6 z-50">
+          <ModeToggle />
+          </div> */}
           <FloatingNav navItems={navItems} />
           <Hero />
           <Grid />
