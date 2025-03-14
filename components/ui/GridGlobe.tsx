@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
 import dynamic from "next/dynamic";
 
+// use the globe component from the Globe.tsx file
 const World = dynamic(() => import("./Globe").then((m) => m.World), {
   ssr: false,
 });

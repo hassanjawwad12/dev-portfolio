@@ -8,9 +8,11 @@ Run
 `npm i mini-svg-data-uri`
 `npm i react-icons`
 `install this npm i --save-dev @types/react-lottie`
+`npm i three three-globe @react-three/fiber@alpha @react-three/drei`
 
 [Spotlight-Effect](http://ui.aceternity.com/components/spotlight)
 [Grid-Background](https://ui.aceternity.com/components/grid-and-dot-backgrounds)
+[Layout-Grid](https://ui.aceternity.com/components/layout-grid)
 [Text-Generate](https://ui.aceternity.com/components/text-generate-effect)
 [Magic-Button](https://ui.aceternity.com/components/tailwindcss-buttons)
 [Text-Generate-Effect](https://ui.aceternity.com/components/text-generate-effect)
@@ -19,6 +21,9 @@ Run
 [Infinit-Moving-Cards](https://ui.aceternity.com/components/infinite-moving-cards)
 [Github-Globe](https://ui.aceternity.com/components/github-globe)
 [Canvas-Reveal-Effect](https://ui.aceternity.com/components/canvas-reveal-effect)
+[Background-Gradient](https://ui.aceternity.com/components/background-gradient)
+[Moving-Border](https://ui.aceternity.com/components/moving-border)
+[GLOBE.JSON-FILE](https://assets.aceternity.com/globe.json)
 
 Create a library folder and add a `util.ts` file (you will find this on the Acerternity website)
 Copy the code for particular component u want to use from `Acerternity` and paste it inside a folder `ui` in the `components` folder.

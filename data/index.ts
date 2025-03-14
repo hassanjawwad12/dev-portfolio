@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Task Rise GmBH",
-    des: "We are a full-service agency for eCommerce, creators & coaches, as well as B2B companies.",
+    des: "We are a full-service agency for eCommerce, creators & coaches.",
     img: "/landing.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg","/next.svg"],
     link: "https://hassan.task-rise.pages.dev/",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Sudha App",
-    des: "Embark on a transformative yoga journey personalised for you with our state-of-the-art AI-powered application.",
+    des: "Embark on a AI-powered transformative yoga journey personalised for you.",
     img: "/sudha.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/vite.svg"],
     link: "https://www.sudha.app/",
