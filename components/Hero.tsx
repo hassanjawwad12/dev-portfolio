@@ -14,7 +14,7 @@ const Hero = () => {
           fill="white" //define the color
         />
         <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-[90%]" //left-full means left-100%
+          className="h-[80vh] w-[50vw] top-10 left-[90%]"
           fill="purple"
         />
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
@@ -26,7 +26,6 @@ const Hero = () => {
       >
         {/* Radial gradient for the container to give a faded look (copy this from Acerternity*/}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
