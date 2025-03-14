@@ -7,6 +7,7 @@ Run
 `npm install tailwind-css animate`
 `npm i mini-svg-data-uri`
 `npm i react-icons`
+`install this npm i --save-dev @types/react-lottie`
 
 [Spotlight-Effect](http://ui.aceternity.com/components/spotlight)
 [Grid-Background](https://ui.aceternity.com/components/grid-and-dot-backgrounds)
@@ -30,3 +31,4 @@ And then you have to copy the root layout with the themeprovider
 Simple things I learned making this Portfolio:
 `left-full` means `left:100%`
 That we can add percentages after `left-[<value>%]`
+Make custom gradients using [CSS-Gradient](https://cssgradient.io/)
