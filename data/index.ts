@@ -72,68 +72,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Task Rise GmBH",
+    des: "We are a full-service agency for eCommerce, creators & coaches, as well as B2B companies.",
+    img: "/landing.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg","/next.svg"],
+    link: "https://hassan.task-rise.pages.dev/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Sudha App",
+    des: "Embark on a transformative yoga journey personalised for you with our state-of-the-art AI-powered application.",
+    img: "/sudha.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/vite.svg"],
+    link: "https://www.sudha.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Kassoma AI",
+    des: "Take your language learning skills to the next level with our AI-powered platform.",
+    img: "/study.png",
+    iconLists: ["/re.svg", "/tail.svg", "/vite.svg"],
+    link: "https://www.kassoma.net/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Event Management System",
+    des: "Event Management System for a leading event management company.",
+    img: "/description.png",
+    iconLists: ["/go.svg", "/sql.svg"],
+    link: "https://github.com/hassanjawwad12/event-management-system",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
+      "Working with Hassan was an incredible experience. His technical expertise, attention to detail, and commitment to delivering high-quality work exceeded our expectations. He not only met our requirements but also introduced innovative solutions that took our project to the next level.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hassan is a true professional who brings passion and precision to every project. His ability to translate complex requirements into seamless, efficient solutions is remarkable. His dedication and proactive approach make him an invaluable asset to any development team.",
+    name: "Sarah Thompson",
+    title: "Product Manager at NextGen Solutions",
   },
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've collaborated with many developers, but Hassan stands out for his efficiency, reliability, and deep technical knowledge. He consistently delivers outstanding work, on time and beyond expectations. His problem-solving skills and innovative mindset set him apart.",
+    name: "David Chen",
+    title: "CEO of BrightWave Digital",
   },
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hassan transformed our web platform with his expertise in Golang and frontend development. His keen eye for performance optimization and user experience improvements made a significant impact on our business. Highly recommended!",
+    name: "Emily Davis",
+    title: "CTO of Streamline Systems",
   },
   {
     quote:
-      "Collaborating with Hassan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hassan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hassan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hassan's work ethic, technical prowess, and collaborative nature make him an exceptional developer. His ability to quickly adapt to new challenges and deliver high-performance solutions was instrumental in the success of our project.",
+    name: "Robert Wilson",
+    title: "Lead Engineer at CloudScape Technologies",
   },
 ];
 
