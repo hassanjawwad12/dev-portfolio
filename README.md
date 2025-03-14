@@ -16,6 +16,9 @@ Run
 [Text-Generate-Effect](https://ui.aceternity.com/components/text-generate-effect)
 [Floating-Navbar](https://ui.aceternity.com/components/floating-navbar)
 [Bento-Grid](https://ui.aceternity.com/components/bento-grid)
+[Infinit-Moving-Cards](https://ui.aceternity.com/components/infinite-moving-cards)
+[Github-Globe](https://ui.aceternity.com/components/github-globe)
+[Canvas-Reveal-Effect](https://ui.aceternity.com/components/canvas-reveal-effect)
 
 Create a library folder and add a `util.ts` file (you will find this on the Acerternity website)
 Copy the code for particular component u want to use from `Acerternity` and paste it inside a folder `ui` in the `components` folder.
