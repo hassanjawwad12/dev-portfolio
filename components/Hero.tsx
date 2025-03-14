@@ -2,11 +2,17 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Image from "next/image";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-
       {/* Added light effect on right and left side */}
       <div>
         <Spotlight
@@ -33,7 +39,6 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-
           <TextGenerateEffect
             words="Crafting Code, Creating Impactful Digital Solutions"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -42,13 +47,38 @@ const Hero = () => {
             Hi! I&apos;m Hassan, a Software Engineer based in Pakistan.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex gap-2 items-center justify-center">
+            <a href="#projects">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <a
+                    href={"https://github.com/hassanjawwad12"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer"
+                  >
+                    <Image
+                      src="github.svg"
+                      width={20}
+                      height={20}
+                      alt="hero"
+                      className="mt-9 w-20 h-auto cursor-pointer"
+                    />
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>View my Github Profile</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          </div>
         </div>
       </div>
     </div>
