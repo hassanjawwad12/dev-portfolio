@@ -91,6 +91,7 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        // added the spotlight from Acerternity
         spotlight: {
           "0%": {
             opacity: "0",
